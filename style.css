@@ -1,0 +1,56 @@
+h1{
+	text-align: center;
+	height: 45px;
+	margin: 0 auto;
+	width: 300px;
+	font-family: 'Arial',sans-serif;
+	background-color: #2dac55;
+	background-image: linear-gradient(320deg,#1a9900,#94b694);
+	border-radius: 7px;
+	box-shadow: 5px 5px 20px #50a65a;
+
+}
+a{
+	display:inline-block;
+	width: 300px ;
+	height: 255px;
+	margin: 25px;
+	
+}
+
+.bg {
+	animation: slide 0s ease-in-out infinite alternate;
+	background-image: linear-gradient(-60deg, rgb(255, 238, 0) 50%, #09f 50%);
+	bottom: 0;
+	left: -50%;
+
+	position: fixed;
+	right: -50%;
+	top: 0;
+	z-index: -1;
+}
+
+.social-media{
+	width:1050px;
+	margin-left: 405px;
+	margin-right: auto;
+
+}
+.icon{
+	background: url(image.png);
+	background-repeat: no-repeat;
+	background-size: 600px 510px;
+}
+.facebook{
+	background-position: 0 -255px ;
+}
+.instagram{
+	background-position:-300px -255px;
+}
+.discord{
+	background-position: -300px 0;
+}
+a:hover{
+	background-color: lightgrey;
+	box-shadow: 7px 7px 15px thistle ;
+}	
